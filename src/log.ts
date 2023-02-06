@@ -8,5 +8,5 @@ const colors: { [key: string]: typeof chalk.ChalkInstance } = {
 };
 
 export default function log(prefix: string = "prefix", color: string = "info", ...params: any) {
-    console.log(colors[color].bold(`[${prefix}]`, "%s"), ...params);
+    console.log(colors[color].bold(`[${prefix}]`), ...params);
 }
