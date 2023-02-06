@@ -1,5 +1,5 @@
 import log from "../log";
 
-export default function success(message: string) {
-    log(message, "SUCCESS", "success");
+export default function success(...params: [string, any]) {
+    log("SUCCESS", "success", ...params);
 }
