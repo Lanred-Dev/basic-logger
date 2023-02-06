@@ -1,6 +1,6 @@
 {
     "name": "@lanred/basic-logger",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "a simple command line logger",
     "main": "build/index.js",
     "scripts": {
