@@ -7,6 +7,6 @@ const colors: { [key: string]: ChalkInstance } = {
     warn: chalk.yellow,
 };
 
-export default function log(prefix: string = "prefix", color: string = "info", ...params: [string, any]) {
+export default function log(prefix: string = "prefix", color: string = "info", ...params: any) {
     console.log(colors[color].bold(`[${prefix}]`, "%s"), ...params);
 }
