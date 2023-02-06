@@ -1,6 +1,6 @@
-import chalk, { ChalkInstance } from "chalk";
+const chalk = require("chalk");
 
-const colors: { [key: string]: ChalkInstance } = {
+const colors: { [key: string]: typeof chalk.ChalkInstance } = {
     error: chalk.red,
     info: chalk.white,
     success: chalk.green,
